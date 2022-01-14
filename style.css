@@ -1,0 +1,46 @@
+/* font style  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&display=swap');
+
+/* common parameters */
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.common-width-flex{
+    margin: 50px 10% ;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* navigation bar  */
+
+nav ul{
+    display: flex;
+}
+nav li{
+    list-style: none;
+    padding-left: 34px;
+}
+
+/* sections design  */
+
+/* first section */
+.first-section h1{
+    font-size: 52px;
+    margin-bottom: 0;
+}
+.first-section .button{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    background: #E02C6D;
+    padding:10px 24px;
+    border-radius: 41px;
+    margin-top: 16px;
+}
+.first-section img{
+    width: 440px;
+    height: 414px;
+    background-image: url(images/Circle\ design.svg);
+}
