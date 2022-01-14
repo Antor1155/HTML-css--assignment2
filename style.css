@@ -58,11 +58,12 @@ nav li{
     display: flex;
     flex-direction: column;
     box-shadow:1px .55px 15px gray;
+    border-radius: 15px;
     
 }
 .product>.image{
     align-self: center;
-    border-radius: 20px;
+    border-radius: 15px;
     overflow: hidden;
     margin-top: 5px;
     width: 300px;
