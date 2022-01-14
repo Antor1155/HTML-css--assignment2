@@ -14,6 +14,12 @@ body{
 .common-ratio{
     margin: 50px 10% ;
 }
+a{
+    text-decoration: none;
+}
+
+
+
 
 /* navigation bar  */
 
@@ -34,7 +40,6 @@ nav li{
 }
 .first-section .button{
     display: inline-block;
-    text-decoration: none;
     color: white;
     background: #E02C6D;
     padding:10px 24px;
@@ -47,18 +52,31 @@ nav li{
     background-image: url(images/Circle\ design.svg);
 }
 
+
+/* company logo section */
+.company-logos{
+    margin-top: 80px;
+    padding:5px 0;
+    border-top: .5px solid rgba(155, 152, 152, 0.4);
+    border-bottom: .5px solid rgba(155, 152, 152, 0.4);
+}
+
 /* products section */
+.products-section{
+    margin-top: 100px;
+}
 .products{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    margin-top: 100px;
     gap: 30px;
+    margin-bottom: 30px;
 }
 .product{
     display: flex;
     flex-direction: column;
     box-shadow:1px .55px 15px gray;
     border-radius: 15px;
+
     
 }
 .product>.image{
@@ -77,4 +95,8 @@ nav li{
 }
 .product .fa-star{
     color: orange;
+}
+.products-link a{
+    float: right;
+    color: #E02C6D;;
 }
