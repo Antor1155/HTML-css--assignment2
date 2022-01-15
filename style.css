@@ -30,6 +30,7 @@ body{
     border-radius: 41px;
     margin-top: 16px;
 }
+
 a{
     text-decoration: none;
 }
@@ -60,6 +61,20 @@ nav li{
     height: 414px;
     background-image: url(images/Circle\ design.svg);
 }
+
+/* animation in first section with hover */
+.button{
+    transition: padding-right 2s, linear-gradinet 2s;
+}
+.button:hover{
+    padding-right:60%;
+    background: linear-gradient(90deg,#E02C6D, #660ddb);
+}
+.bonus-section .button:hover{
+    padding-left: 30%;
+    padding-right: 30%;
+}
+
 
 
 /* company logo section */
@@ -106,7 +121,7 @@ nav li{
 }
 .products-link a{
     float: right;
-    color: #E02C6D;;
+    color: #E02C6D;
 }
 
 /* bonus section  */
