@@ -64,17 +64,13 @@ nav li{
 
 /* animation in first section with hover */
 .button{
-    transition: padding-right 2s, linear-gradinet 2s;
+    transition: padding-right 2s,box-shadow 1.5s, linear-gradinet 2s;
 }
 .button:hover{
     padding-right:60%;
     background: linear-gradient(90deg,#E02C6D, #660ddb);
+    box-shadow:5px 55px 55px gray;
 }
-.bonus-section .button:hover{
-    padding-left: 30%;
-    padding-right: 30%;
-}
-
 
 
 /* company logo section */
