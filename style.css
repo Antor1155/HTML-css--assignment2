@@ -196,7 +196,7 @@ footer .links{
         height: 70%;
     }
     .first-section h1{
-        font-size:44px;
+        font-size:30px;
     }
 
     /* changing company logo section */
@@ -235,11 +235,20 @@ footer .links{
 --------------------------
 -------------------------- */
 
-@media only screen and (min-width:689px) and (max-width:992){
-    body{
-        background-color: tomato;
+@media only screen and (min-width:689px) and (max-width:992px){
+
+    /* first section modification */
+    .first-section h1{
+        font-size:30px;
     }
-    
+    .first-section .button{
+        font-size: 13px;
+    }
+
+    .company-logos{
+        display: none;
+    }
+
+    .common-grid{
+        grid-template-columns: repeat(2, 1fr);}
 }
-
-
