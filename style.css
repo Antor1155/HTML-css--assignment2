@@ -172,8 +172,7 @@ footer .links{
    viewport for mobile
 --------------------------
 -------------------------- */
-@media only screen and (max-width:668px) {
-
+@media only screen and (max-width:688px) {
     /* changing nav */
     nav ul{
         display:none;
@@ -227,14 +226,20 @@ footer .links{
     /* changing bonus section  */
     .bonus-section{
         margin-top:70px
-    }
-    
-
-    
+    }  
 }
 
+/* -----------------------
+--------------------------
+   viewport for mobile
+--------------------------
+-------------------------- */
 
-
-
+@media only screen and (min-width:689px) and (max-width:992){
+    body{
+        background-color: tomato;
+    }
+    
+}
 
 
