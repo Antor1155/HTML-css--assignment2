@@ -5,6 +5,7 @@
 
 body{
     font-family: 'Poppins', sans-serif;
+    margin: 0;
 }
 .common-flex{
     display: flex;
@@ -12,7 +13,22 @@ body{
     justify-content: space-between;
 }
 .common-ratio{
-    margin: 50px 10% ;
+    margin: 50px 10%;
+}
+.common-grid {
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    margin-bottom: 30px;
+}
+.button{
+    display: inline-block;
+    color: white;
+    background: #E02C6D;
+    padding:10px 24px;
+    border-radius: 41px;
+    margin-top: 16px;
 }
 a{
     text-decoration: none;
@@ -38,14 +54,7 @@ nav li{
     font-size: 52px;
     margin-bottom: 0;
 }
-.first-section .button{
-    display: inline-block;
-    color: white;
-    background: #E02C6D;
-    padding:10px 24px;
-    border-radius: 41px;
-    margin-top: 16px;
-}
+
 .first-section img{
     width: 440px;
     height: 414px;
@@ -67,14 +76,9 @@ nav li{
 }
 .products-heading>h2{
     text-align: center;
+    margin: 40px;
 }
-.products{
-    margin-top: 30px;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 30px;
-    margin-bottom: 30px;
-}
+
 .product{
     display: flex;
     flex-direction: column;
@@ -105,19 +109,51 @@ nav li{
     color: #E02C6D;;
 }
 
+/* bonus section  */
+.bonus-section{
+    margin-top: 140px;
+}
+.bonus-section>h2{
+    text-align: center;
+    margin:40px;
+}
+.customers{
+    box-shadow:.25px .05px 30px rgba(128, 128, 128, 0.315);
+    padding:30px;
+}
+.customer{
+    padding:10px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+.customer>img{
+    box-shadow:1px .55px 15px gray;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    align-self: center;
+}
+.button-container{
+    text-align: center;
+}
+.button-container>a{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+
 
 /* footer design */
 footer{
     background-color: rgb(11, 4, 24);
-    margin-top: 200px;
+    margin-top: 100px;
 }
 footer>.footer-contents{
     display: flex;
     flex-direction: column;
     padding:20px;
 }
-
-
 footer h2,small,a{
     color: rgb(219, 210, 210);
     align-self: center;
